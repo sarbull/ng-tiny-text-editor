@@ -9,5 +9,5 @@ $ npm run build
 # Demo
 ```bash
 $ npm install -g http-server
-$ hs -c0 # http://localhost:8080
+$ hs -c0 # http://localhost:8080/demo
 ```
