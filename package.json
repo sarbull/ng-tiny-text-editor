@@ -1,0 +1,23 @@
+{
+  "name": "html2text",
+  "version": "1.0.0",
+  "description": "AngularJS WYSIWYG Editor",
+  "main": "dist/html2text.min.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarbull/html2text.git"
+  },
+  "keywords": [
+    "angularjs",
+    "javascript",
+    "webpack",
+    "wysiwyg-editor"
+  ],
+  "author": "Sirbu Nicolae-Cezar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarbull/html2text/issues"
+  },
+  "homepage": "https://github.com/sarbull/html2text#readme"
+}
