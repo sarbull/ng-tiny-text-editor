@@ -6,14 +6,18 @@
 <body>
 
 <div ng-controller="DemoController">
-  <html2text ng-model="htmlContent"></html2text>
+  {{ obj.data }}
+
+  <html2text ng-model="obj"></html2text>
 </div>
 
 <script src="../dist/html2text.min.js"></script>
 <script>
   angular.module('demo', ['html2text'])
     .controller('DemoController', ['$scope', function ($scope) {
-      $scope.htmlContent = '<p>Hello from Demo!</p>';
+      $scope.obj = {
+        data: '<h1>Hello from Demo!</h1>'
+      };
     }]);
 </script>
 </body>
