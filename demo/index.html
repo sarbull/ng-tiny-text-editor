@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="demo">
+<head>
+  <title>html2Text Demo</title>
+</head>
+<body>
+
+<div ng-controller="DemoController">
+  <html2text ng-model="htmlContent"></html2text>
+</div>
+
+<script src="../dist/html2text.min.js"></script>
+<script>
+  angular.module('demo', ['html2text'])
+    .controller('DemoController', ['$scope', function ($scope) {
+      $scope.htmlContent = '<p>Hello from Demo!</p>';
+    }]);
+</script>
+</body>
+</html>

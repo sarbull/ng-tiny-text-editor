@@ -3,13 +3,18 @@ import html2textTemplate from '../templates/html2text.tpl.html';
 
 export default directive;
 
+directive.$inject = ['$sce'];
 directive.NAME = 'html2text';
 
-function directive() {
+function directive($sce) {
   return {
     restrict: 'E',
-    templateUrl: html2textTemplate,
-    link: ($scope, $element, $attrs) => {
+    template: html2textTemplate,
+    require: '?ngModel',
+    link: ($scope, $element, $attrs, ngModel) => {
+      ngModel.$render = function() {
+        $element.html($sce.getTrustedHtml(ngModel.$viewValue || ''));
+      };
     }
   };
 }

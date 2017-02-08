@@ -1,6 +1,12 @@
 import 'angular';
-import html2textDirective from 'directives/html2text.directive';
+import 'angular-sanitize';
+
+import html2textDirective from './directives/html2text.directive';
+
+const MODULE_NAME = 'html2text';
 
 angular
-  .module('html2text', [])
+  .module(MODULE_NAME, ['ngSanitize'])
   .directive(html2textDirective.NAME, html2textDirective);
+
+export default MODULE_NAME;

@@ -4,7 +4,7 @@
   "description": "AngularJS WYSIWYG Editor",
   "main": "dist/html2text.min.js",
   "scripts": {
-    "build": "webpack --bail --progress --profile --config ./webpack.config.js"
+    "build": "webpack --bail --watch --progress --profile --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/sarbull/html2text#readme",
   "dependencies": {
-    "angular": "^1.6.2"
+    "angular": "^1.6.2",
+    "angular-sanitize": "^1.6.2"
   },
   "devDependencies": {
+    "html-loader": "^0.4.4",
     "webpack": "^2.2.1"
   }
 }
