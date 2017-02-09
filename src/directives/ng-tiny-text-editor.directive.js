@@ -4,7 +4,7 @@ import html2textTemplate from '../templates/html2text.tpl.html';
 export default directive;
 
 directive.$inject = ['$sce'];
-directive.NAME = 'html2text';
+directive.NAME = 'ngTinyTextEditor';
 
 function directive($sce) {
   return {
