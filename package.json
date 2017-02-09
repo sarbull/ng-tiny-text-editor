@@ -1,6 +1,6 @@
 {
   "name": "ng-tiny-text-editor",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "AngularJS WYSIWYG Editor",
   "main": "dist/ngTinyTextEditor.min.js",
   "scripts": {
