@@ -1,5 +1,5 @@
 import 'angular';
-import html2textTemplate from '../templates/html2text.tpl.html';
+import ngTinyTextEditorTemplate from '../templates/ng-tiny-text-editor.tpl.html';
 
 export default directive;
 
@@ -9,7 +9,7 @@ directive.NAME = 'ngTinyTextEditor';
 function directive($sce) {
   return {
     restrict: 'E',
-    template: html2textTemplate,
+    template: ngTinyTextEditorTemplate,
     scope: {
       ngModel: '=ngModel'
     }
