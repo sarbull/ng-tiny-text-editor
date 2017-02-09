@@ -11,3 +11,6 @@ $ npm run build
 $ npm install -g http-server
 $ hs -c0 # http://localhost:8080/demo
 ```
+
+# Printscreen
+![alt tag](https://raw.githubusercontent.com/sarbull/html2text/master/meta/printscreen.png)
