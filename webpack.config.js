@@ -2,7 +2,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: __dirname,
-    filename: 'dist/html2text.min.js'
+    filename: 'dist/ngTinyTextEditor.min.js'
   },
   module: {
     loaders: [
