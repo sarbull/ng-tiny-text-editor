@@ -1,14 +1,14 @@
 {
-  "name": "html2text",
+  "name": "ng-tiny-text-editor",
   "version": "1.0.0",
   "description": "AngularJS WYSIWYG Editor",
-  "main": "dist/html2text.min.js",
+  "main": "dist/ngTinyTextEditor.min.js",
   "scripts": {
     "build": "webpack --bail --watch --progress --profile --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarbull/html2text.git"
+    "url": "git+https://github.com/sarbull/ng-tiny-text-editor.git"
   },
   "keywords": [
     "angularjs",
@@ -19,9 +19,9 @@
   "author": "Sirbu Nicolae-Cezar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarbull/html2text/issues"
+    "url": "https://github.com/sarbull/ng-tiny-text-editor/issues"
   },
-  "homepage": "https://github.com/sarbull/html2text#readme",
+  "homepage": "https://github.com/sarbull/ng-tiny-text-editor#readme",
   "dependencies": {
     "angular": "^1.6.2",
     "angular-sanitize": "^1.6.2"
